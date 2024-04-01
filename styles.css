@@ -1,15 +1,21 @@
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("Ouroboros.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background: black;
 }
 
 canvas {
-    border: 1px solid white;
+  border: 1px solid white;
 }
